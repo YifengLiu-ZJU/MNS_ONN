@@ -1,4 +1,16 @@
+<<<<<<< HEAD
+%-------------------------------------------------------------------------------------
+% This is the main program which calls ann_classifier.m.
+%
+% Most of the settings are done in Top.m. Other parameters 
+% which need to be set before the simulation are the following:
+% "alpha"    in ann_classifier.m   for adjusting learning rates
+%
+% Version 1.0, Author CJin,YifengLiu,PeiyanTu
+%-------------------------------------------------------------------------------------
+=======
 clear all;
+>>>>>>> bbd5ba9482a68a9e0e091a0bfb5e96aa9a3f7320
 clc;
 %% Operation Parameter Setting
 power_limit = 0;
