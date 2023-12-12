@@ -9,9 +9,7 @@ Semiconductor optical amplifiers (SOAs) are employed as an example of MNS to con
 
 In addition, this method can  process either the MNIST_handwritten digits or the fashion_MNIST dataset，as shown in our disclosed article, https://doi.org/10.48550/arXiv.2308.14015. 
 
-The accuracy of MNIST_handwritten can reach 92% and that of Fashion_MNIST can reach 83%.
-
-This code includes both the MNIST_handwritten and Fashion_MNIST datasets, you can choose which one to use.
+This code includes both the MNIST_handwritten and the Fashion_MNIST datasets, you can choose which one to use.
 
 Crosstalk can be changed by adjusting two parameters gss and Psat.
 
