@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 %-------------------------------------------------------------------------------------
 % This is the main program which calls ann_classifier.m.
 %
@@ -8,9 +7,7 @@
 %
 % Version 1.0, Author CJin,YifengLiu,PeiyanTu
 %-------------------------------------------------------------------------------------
-=======
 clear all;
->>>>>>> bbd5ba9482a68a9e0e091a0bfb5e96aa9a3f7320
 clc;
 %% Operation Parameter Setting
 power_limit = 0;

@@ -1,12 +1,10 @@
 %% testing
 test_size = size(test_set);
-<<<<<<< HEAD
 test_size2 = size(test_set2);
 num_correct = 0;
 num_correct2 = 0;
-=======
 num_correct = 0;
->>>>>>> bbd5ba9482a68a9e0e091a0bfb5e96aa9a3f7320
+
 for i1=1:test_size(1) % number of test samples
     input_x = [1; test_set(i1,:)']; % input matrix
     [sum_SOA_o, ~] = SOA_2D(W1'*input_x); % after SOA processing
@@ -19,7 +17,6 @@ for i1=1:test_size(1) % number of test samples
 end
 % computing accuracy
 accuracy = num_correct/test_size(1);
-<<<<<<< HEAD
 	disp([ 'Digital accuracy:',num2str(accuracy)]);
     
 %%
@@ -36,6 +33,4 @@ end
 % computing accuracy
 accuracy2 = num_correct2/test_size2(1);
 	disp([ 'Fashion accuracy:',num2str(accuracy2)]);
-=======
 	disp([ 'accuracy:',num2str(accuracy)]);
->>>>>>> bbd5ba9482a68a9e0e091a0bfb5e96aa9a3f7320

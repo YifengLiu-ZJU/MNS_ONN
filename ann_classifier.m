@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 %-------------------------------------------------------------------------------------
 % This program calls SOA_2D.m, Hid2Inp.m and test.m 
 % to input the function into the SOA, backpropagation update weights 
@@ -6,10 +6,8 @@
 %-------------------------------------------------------------------------------------
 %% load training set and testing set(A single hidden layerer)
 load('MNISTData.mat'); % option to choose which dataset to use
-=======
 %% load training set and testing set(A single hidden layerer)
 load('MNISTData.mat');
->>>>>>> bbd5ba9482a68a9e0e091a0bfb5e96aa9a3f7320
 %% setting parameters
 train_size = size(train_set);
 alpha = 0.2; % learning rate
@@ -28,7 +26,7 @@ Y = eye(K);        % initialize the output vector
 Perf = zeros(max_iter,1); % initialize the accuracy vector 
 
 %% training 
-  for i=1:max_iter
+for i=1:max_iter
 %Learning rate of the MNISTData
 if i<20
     alpha = 0.5;
