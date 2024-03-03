@@ -17,7 +17,7 @@ Crosstalk can be changed by adjusting two parameters gss and Psat.
 
 #Note: It's a 2-layer model. Only the hidden layer induce the 2-D SOA function. 
 
->The exact formulas and ideas can be found in our paper:https://doi.org/10.48550/arXiv.2308.14015
+>The exact formulas and ideas can be found in our paper:https://spj.science.org/doi/10.34133/icomputing.0070
 
 >Author: CJin (Email: jincy@zju.edu.cn)    Peiyan Tu (Email: peiyantu@foxmail.com)    YifengLiu (Email: yf.liu21@zju.edu.cn)
 
